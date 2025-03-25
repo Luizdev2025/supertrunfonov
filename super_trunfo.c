@@ -12,7 +12,7 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    // Declaração das variáveis para a carta 2
+    // Declaracaao das variaveis para a carta 2
     char estado2;
     char codigo2[4];
     char nomeCidade2[100];
@@ -24,7 +24,8 @@ int main() {
     // Leitura dos dados da Carta 1
     printf("Cadastro da Carta 1:\n");
 
-    printf("Digite o estado (A-H): ");
+    // digite uma letra entre A e H
+    printf("Digite o estado : ");
     scanf(" %c", &estado1);
 
     printf("Digite o código da carta (ex: A01): ");
@@ -49,7 +50,7 @@ int main() {
     // Leitura dos dados da Carta 2
     printf("\nCadastro da Carta 2:\n");
 
-    printf("Digite o estado (A-H): ");
+    printf("Digite o estado: ");
     scanf(" %c", &estado2);
 
     printf("Digite o código da carta (ex: B02): ");
